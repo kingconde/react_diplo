@@ -2,6 +2,8 @@ import React from "react";
 
 const LocationPage = () => (
     <>
+    <h1 className="s-center">Ubicaciones</h1>
+        <br/>
         <section className="s-center">
             <article>
                 <header>
@@ -12,10 +14,6 @@ const LocationPage = () => (
                     <time datetime="2021-08-28" pupdate>Publicado el 28-08-2021</time>
                 </header>
                 <p>Mensaje 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, voluptatum. Natus repudiandae aliquam mollitia veritatis qui eveniet ex eos numquam non sunt sequi porro, exercitationem odit, harum corporis perspiciatis sapiente.</p>
-
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
             </article>
 
             <article>
@@ -28,9 +26,6 @@ const LocationPage = () => (
                 </header>
                 <p>Mensaje 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, voluptatum. Natus repudiandae aliquam mollitia veritatis qui eveniet ex eos numquam non sunt sequi porro, exercitationem odit, harum corporis perspiciatis sapiente.</p>
 
-                <footer>
-                    <p>Comentarios (5)</p>
-                </footer>
             </article>
         </section>
     </>

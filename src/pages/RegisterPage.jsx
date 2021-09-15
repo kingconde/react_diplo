@@ -2,7 +2,8 @@ import React from "react";
 
 const RegisterPage = () => (
     <>
-        <h1>Registro de usuarios</h1>
+        <h1 className="s-center">Registro</h1>
+        <br/>
         <article className="s-center">
             <div id="registerError">
 
